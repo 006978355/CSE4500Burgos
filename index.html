@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>API Assignment Kelsey</title>
+</head>
+
+<body>
+
+<h1>What is the update on Covid specifically in Ecuador?</h1>
+<script>
+
+
+const url = 'https://covid-19-data.p.rapidapi.com/report/country/name?name=Ecuador&date=2020-04-01';
+
+async function getInfo() {
+    var fetch = require('node-fetch');
+	const response = await fetch(url);
+	const data = await response.json();
+	console.log(data);
+    }
+
+getInfo();
+
+	
+</script>
+</body>
+</html>
