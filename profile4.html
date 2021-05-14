@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+
+<link rel="stylesheet" href="profile.css"> 
+        
+</head>
+
+<body>
+<div class="bg"></div>
+
+<div class="head-link">
+<a href="/"><h1 class="main-header">SIMP - Profile</h1></a>
+</div>
+
+<div class="topnav">
+  <a href="homepage">Home</a>
+  <a class="active" href="profile">Profile</a>
+  <a href="messages">Messages</a>
+  <a href="settings">Settings</a>
+  <a href="#logout">Logout</a>
+  <a href="notification">!</a>
+ 
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
+    <main>
+<div class="profile-cont">
+    <div class="profile-name">
+	<p><b>@Username</b></p>
+    </div>
+    <div class="profile-pic">
+	
+          <img weight="100" width="125" height="125" src= "avatar.jpg" alt="avatar">
+    </div>
+    <div class="profile-bio-cont">
+	<p>Bio: </p>
+    </div>
+    <div class="profile-bio">
+	<p>Bio</p>
+    </div>
+</div>
+
+<div class="follower-cont">
+
+<p>followers</p>
+<b></b>
+<b></b>
+<b></b>
+<p>following</p>
+</div>
+
+<div class="interests-cont">
+
+<p>Interests</p>
+<b></b>
+<b></b>
+<b></b>
+</div>
+
+<div class="tweets">
+    <div class="thread">
+    
+        <div class="tweet">
+        <img src="">
+        <div class="body">
+            <div class="title">@Username</div>
+            <div class="message">Caption</div>
+            <div class="post-time">Date</div>
+        </div>
+    </div>
+    
+    <div class="comments">
+        <div class="thread">
+            <div class="comment">
+                 <img src="">
+                    <div class="body">
+                        <div class="title">@Username</div>
+                        <div class="message">Content</div>
+                        <div class="comment-time">Date</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	<!-- Work in Progress -->
+        <div class="replies">
+            <form class="compose">
+                <textarea placeholder="Compose new Tweet..."></textarea>
+                <div><span class="count">140</span>
+                    <button>Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+     
+    </main>
+</body>
+</html>
